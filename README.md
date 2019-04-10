@@ -2,6 +2,11 @@
 
 This project will create a web application that will enable a user to store a list of bookmarks of web sites that they visit regularly.
 
+USER STORY
+>As a user,
+so that I can visit several of my favourite websites,
+I'd like to add more  site addresses to my bookmark
+
 DOMAIN MODEL
 
 
@@ -29,5 +34,4 @@ Client         Controller                   Model         View
 #How to create a test database
 1. Connect to psql
 2. Create the database using the psql command CREATE DATABASE "bookmark_manager_test;"
-3. Connect to the "database" using the psql command (\c) bookmark_manager_test;
-4. Run the query we have saved in the file 02_create_bookmarks_test_table.sql
+3. To set up the appropriate tables, connect to each database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
