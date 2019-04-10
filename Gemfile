@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem 'rspec'
+gem 'rspec', group: :test
 gem 'sinatra'
-gem 'capybara'
+gem 'capybara', group: :test
+gem 'pg'
 
 # gem "rails"
