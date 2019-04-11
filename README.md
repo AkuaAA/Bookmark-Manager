@@ -5,7 +5,7 @@ This project will create a web application that will enable a user to store a li
 USER STORY
 >As a user,
 so that I can visit several of my favourite websites,
-I'd like to add more  site addresses to my bookmark
+I'd like to add more site addresses to my bookmark
 
 DOMAIN MODEL
 

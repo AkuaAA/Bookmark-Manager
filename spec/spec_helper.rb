@@ -1,4 +1,5 @@
 ENV['ENVIRONMENT'] = 'test'
+ENV['RACK_ENV'] = 'test'
 
 # require our Sinatra app file
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
@@ -13,7 +14,7 @@ require_relative './setup_test_database'
 # this file to always be loaded, without a need to explicitly require it in any
 # files.
 # tell Capybara about our app class
-Capybara.app = Bookmark
+Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
 
